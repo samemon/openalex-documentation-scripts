@@ -112,8 +112,8 @@ csv_files = {
         'sources': {
             'name': os.path.join(CSV_DIR, 'sources.csv.gz'),
             'columns': [
-                'id', 'issn_l', 'issn', 'display_name', 'publisher', 'works_count', 'cited_by_count', 'is_oa',
-                'is_in_doaj', 'homepage_url', 'works_api_url', 'updated_date'
+                'id', 'issn_l', 'issn', 'display_name', 'type', 'publisher', 'works_count', 
+                'cited_by_count', 'is_oa', 'is_in_doaj', 'homepage_url', 'works_api_url', 'updated_date'
             ]
         },
         'ids': {
